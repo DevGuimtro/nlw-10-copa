@@ -46,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+ 
 }
 
 body * {
@@ -87,6 +88,7 @@ header {
   background: var(--card-bg-color);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
+  height: fit-content;
 }
 
 .card h2 {
@@ -95,7 +97,7 @@ header {
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  border: 5px double var(--card-title-border-color);
+  border: 3px double var(--card-title-border-color);
   border-radius: 6px;
   width: fit-content;
   margin-inline: auto;
