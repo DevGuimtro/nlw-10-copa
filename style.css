@@ -33,7 +33,7 @@ body.redwhite {
   --card-color-primary: white;
   --card-bg-color: rgb(99, 96, 96);
   --card-text-color: white;
-  --bg: 
+  --bg: ;
 }
 
 ul {
@@ -46,7 +46,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- 
 }
 
 body * {
@@ -62,7 +61,7 @@ body * {
 header {
   margin-bottom: 63px;
   text-align: center;
-  border: 2px outset var(--card-title-border-color);
+  border: 0px outset var(--card-title-border-color);
   padding: 15px;
   margin: none;
   display: flex;
@@ -70,11 +69,23 @@ header {
   align-items: center;
 }
 
+header h4 em {
+  margin-bottom: 63px;
+  text-align: center;
+  padding: 15px;
+  margin: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--card-color-primary);
+  font-size: 35px;
+  border: 3px solid var(--card-title-border-color);
+}
+
 header {
   opacity: 0;
   animation: apper 2s forwards;
 }
-
 
 #cards {
   display: flex;
