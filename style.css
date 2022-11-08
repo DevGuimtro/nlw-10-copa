@@ -59,27 +59,43 @@ body * {
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 50px;
   text-align: center;
-  border: 0px outset var(--card-title-border-color);
-  padding: 15px;
   margin: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header h4 em {
-  margin-bottom: 63px;
+h1 {
+  font-weight: bolder;
+  margin-bottom: 40px;
   text-align: center;
   padding: 15px;
   margin: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: var(--card-color-primary);
   font-size: 35px;
-  border: 3px solid var(--card-title-border-color);
+  border: 3px outset var(--card-title-border-color);
+  border-radius: 15px;
+  opacity: 0;
+  animation: apper 2s forwards;
+}
+
+h1 em {
+  display: flex;
+  color: white;
+  padding: 10px;
+  border: double 5px var(--card-title-border-color);
+  border-radius: 10px;
+ 
+}
+
+h1 em:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
 
 header {
