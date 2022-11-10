@@ -78,8 +78,8 @@ h1 {
   align-items: center;
   color: var(--card-color-primary);
   font-size: 35px;
-  border: 3px outset var(--card-title-border-color);
-  border-radius: 15px;
+  border: 3px groove var(--card-title-border-color);
+  border-radius: 10px;
   opacity: 0;
   animation: apper 2s forwards;
 }
@@ -90,10 +90,9 @@ h1 em {
   padding: 10px;
   border: double 5px var(--card-title-border-color);
   border-radius: 10px;
- 
 }
 
-h1 em:hover{
+h1 em:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
 }
@@ -133,9 +132,10 @@ header {
 }
 
 ul {
+  display: flex;
   color: var(--card-text-color);
-  border: 3px ridge var(--card-title-border-color);
-  border-radius: 30px;
+  border: 3px groove var(--card-title-border-color);
+  border-radius: 15px;
   padding: 20px;
 }
 
