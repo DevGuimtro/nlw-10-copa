@@ -74,7 +74,7 @@ h1 {
   padding: 15px;
   margin: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   color: var(--card-color-primary);
   font-size: 35px;
