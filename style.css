@@ -116,7 +116,7 @@ div ul {
   padding: 32px 23px;
   text-align: center;
   background: var(--card-bg-color);
-  border-bottom: 2px solid var(--card-color-primary);
+  border-bottom: 4px solid var(--card-color-primary);
   border-radius: 6px;
   height: fit-content;
 }
@@ -127,7 +127,7 @@ div ul {
   justify-content: center;
   align-items: center;
   padding: 8px 16px;
-  border: 3px double var(--card-title-border-color);
+  border: 4px double var(--card-title-border-color);
   border-radius: 6px;
   width: fit-content;
   margin-inline: auto;
@@ -164,8 +164,9 @@ ul {
 }
 
 .card ul li + li {
+  display: flex;
   padding-top: 24px;
-  border-top: 1px solid #323238;
+  border-top: 2px solid #cccccf;
 }
 
 .card ul li strong {
