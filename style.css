@@ -134,7 +134,7 @@ header {
 ul {
   display: flex;
   color: var(--card-text-color);
-  border: 3px groove var(--card-title-border-color);
+  /*border: 3px groove var(--card-title-border-color); */
   border-radius: 15px;
   padding: 20px;
 }
@@ -165,10 +165,11 @@ ul {
 }
 
 .card ul li strong {
+  display: flex;
   font-weight: 900;
   font-size: 36px;
   line-height: 125%;
-  color: #e1e1e6;
+  color: white;
 }
 
 .card h2:hover,
