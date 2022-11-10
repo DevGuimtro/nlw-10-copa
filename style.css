@@ -28,13 +28,13 @@ body.green {
   --bg: url(./assets/bg-green.svg);
 }
 
-body.redwhite {
+/* body.redwhite {
   --card-title-border-color: white;
   --card-color-primary: white;
   --card-bg-color: rgb(99, 96, 96);
   --card-text-color: white;
   --bg: ;
-}
+} */
 
 ul {
   list-style: none;
@@ -74,14 +74,13 @@ h1 {
   padding: 15px;
   margin: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   color: var(--card-color-primary);
   font-size: 35px;
-  border: 3px groove var(--card-title-border-color);
-  border-radius: 10px;
   opacity: 0;
   animation: apper 2s forwards;
+  margin-inline: auto;
 }
 
 h1 em {
@@ -119,6 +118,8 @@ div ul {
   border-bottom: 4px solid var(--card-color-primary);
   border-radius: 6px;
   height: fit-content;
+  width: fit-content;
+  margin-inline: auto;
 }
 
 .card h2 {
@@ -140,6 +141,7 @@ ul {
   color: var(--card-text-color);
   border: 2px groove var(--card-title-border-color);
   border-radius: 15px;
+  margin-inline: auto;
   padding: 20px;
 }
 
